@@ -1,0 +1,13 @@
+# Cluster kind pour le TP Argo CD / StayBook
+kind: Cluster
+apiVersion: kind.x-k8s.io/v1alpha4
+name: argocd-tp
+nodes:
+  - role: control-plane
+    extraPortMappings:
+      - containerPort: 30080   # Argo CD (interface web, HTTP)
+        hostPort: 8080
+        protocol: TCP
+      - containerPort: 30081   # StayBook (front)
+        hostPort: 8081
+        protocol: TCP
