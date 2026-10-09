@@ -9,7 +9,7 @@ metadata:
 spec:
   description: StayBook — environnement de développement
   sourceRepos:
-    - https://github.com/<VOTRE-LOGIN>/staybook-gitops.git   # À COMPLÉTER
+    - https://github.com/cyrilboscart-ops/staybook-gitops.git   # À COMPLÉTER
   destinations:
     - server: https://kubernetes.default.svc
       namespace: staybook-dev
@@ -27,7 +27,7 @@ metadata:
 spec:
   description: StayBook — production
   sourceRepos:
-    - https://github.com/<VOTRE-LOGIN>/staybook-gitops.git   # À COMPLÉTER
+    - https://github.com/cyrilboscart-ops/staybook-gitops.git   # À COMPLÉTER
   destinations:
     - server: https://kubernetes.default.svc
       namespace: staybook-prod
@@ -45,7 +45,7 @@ metadata:
 spec:
   description: Services partagés — concierge IA, Sealed Secrets
   sourceRepos:
-    - https://github.com/<VOTRE-LOGIN>/staybook-gitops.git   # À COMPLÉTER
+    - https://github.com/cyrilboscart-ops/staybook-gitops.git   # À COMPLÉTER
     - https://bitnami.github.io/sealed-secrets
   destinations:
     - server: https://kubernetes.default.svc

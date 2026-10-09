@@ -9,7 +9,7 @@ metadata:
 spec:
   project: staybook-dev
   source:
-    repoURL: https://github.com/<VOTRE-LOGIN>/staybook-gitops.git   # À COMPLÉTER
+    repoURL: https://github.com/cyrilboscart-ops/staybook-gitops.git   # À COMPLÉTER
     targetRevision: HEAD
     path: overlays/dev
   destination:
