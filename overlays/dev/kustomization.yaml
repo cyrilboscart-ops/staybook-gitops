@@ -8,4 +8,4 @@ resources:
 images:
 - name: staybook-front
   newName: ghcr.io/cyrilboscart-ops/staybook-front
-  newTag: sha-956d0a9
+  newTag: sha-c129f1a
